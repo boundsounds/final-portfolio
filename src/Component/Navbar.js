@@ -18,7 +18,7 @@ const NavbarComponent = () => {
           <Nav.Link href="/music">Music</Nav.Link>
           <Nav.Link href="/video">Video</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
-          <Nav.Link href="/blog">Blog</Nav.Link>
+        
         </Nav>
       </Navbar.Collapse>
     </Navbar>

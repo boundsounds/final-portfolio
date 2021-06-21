@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+
 
 import Navbar from "./Component/Navbar";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +15,7 @@ import {
 import Art from "./Component/Art"
 import Video from "./Component/Video";
 import Music from "./Component/Music";
-import Blog from "./Component/Blog";
+
 import ContactForm from "./Component/ContactForm";
 import LandingPage from "./Component/LandingPage"
 import Footer from "./Component/Footer";
@@ -40,9 +40,6 @@ function App() {
         </Route>
         <Route path="/contact">
           <ContactForm />
-        </Route>
-        <Route path="/blog">
-          <Blog />
         </Route>
         <Route path="/music">
           <Music />

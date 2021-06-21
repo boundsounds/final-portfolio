@@ -1,6 +1,6 @@
 import React from "react";
 import Art from "./Art";
-import { Blog } from "./Blog";
+
 import ContactForm from "./ContactForm";
 import Music from "./Music";
 import Video from "./Video";
@@ -77,19 +77,3 @@ export const LandingPage = () => {
 
 export default LandingPage;
 
-//    <main>
-//         <Switch>
-//              <Route path="/" component={LandingPage} exact />
-
-//             <Route path="/art" component={Art} />
-
-//             <Route path="/video" component={Video} />
-//              <Route path="/contact" component={ContactForm} />
-//             <Route path="/music" component={Music} />
-//             <Route path="/Blog" component={Blog} />
-//         </Switch>
-
-//         <Link to="/">Home </Link>
-//   <Link to="/art">About Us </Link>
-//   <Link to="/video">Shop Now </Link>
-//     </main>
