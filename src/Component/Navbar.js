@@ -18,7 +18,11 @@ const NavbarComponent = () => {
           <Nav.Link href="/music">Music</Nav.Link>
           <Nav.Link href="/video">Video</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
+<<<<<<< HEAD
         
+=======
+       
+>>>>>>> af16969d931c80560e35f853b4aabd12d0ca71e3
         </Nav>
       </Navbar.Collapse>
     </Navbar>
